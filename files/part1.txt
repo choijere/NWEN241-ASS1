@@ -1,0 +1,63 @@
+ 
+Task 1.
+CORE[20 Marks]
+1) [4 Marks]
+    a) while:           INVALID
+    b) record_100:      VALID
+    c) $record:         VALID
+    d) integer-counter: VALID
+
+2) [8 Marks]
+    a) a + b + c == 15;
+    b) a / b     == 2.3333333333...
+    c) a % b     == 1;
+    d) a * b % c == 0;
+    
+3) [8 Marks]
+    a) c1 + c2 + c3 == 183;
+    b) c1 - 'A'     == 3;
+    c) 3 * c2       == 156;
+    d) '3' * c2     == 2652;
+    
+Task 2.
+COMPLETION[8 MARKS]
+1) [2 Marks]
+    "c+i+l" is a "char c;" type
+    
+2) [2 Marks]
+    The value assigned to 'k' in (k = (j > 5) ? i : j;) is a "char c;" type.
+    
+3) [2 Marks]
+    The problem with ("int rem = 10.0 / 4 % 2") is that it returns 0.5.
+    '0.5' is not an integer.
+    
+4) [2 Marks]
+int main (void) 
+{
+	for(int j = 4; j >= -1; j--) 
+		printf("%d ", --j); 
+	return 0; 
+}
+
+Task 3.
+Challenge [5 Marks]
+1) [3 Marks]
+int i = 5, j = 10, k = 1; 
+(k += 3*--i) - j++;
+
+Step a) k = 1 + (3 * i-1),	i = 5 - 1;
+	k = 1 + (3 * 4)		[i = 4].
+Step b) k = 13 - (j+1),		j = 10 + 1;
+	k = 13 - (10+1),		[j = 11]
+	[k = 2]
+
+[i = 4, j = 11, k = 2]
+
+2) [2 Marks]
+The output is "3".
+The printf arguement instructs that the length of the string be printed.
+The length of the string is 3.
+The string contains the letters "O", "n", "e".
+The other characters are discarded because, (according to W2 L2, slide 3)
+"the array of ASCII characters (are) terminated by the null character'\0'".
+
